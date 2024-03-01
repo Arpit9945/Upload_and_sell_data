@@ -1,0 +1,198 @@
+body {
+  height: 100%;
+  /* width: 100vw; */
+  font-weight: bold;
+}
+
+.formContainer {
+  height: 100%;
+  width: 100%;
+  /* background-color: lightblue; */
+}
+
+
+
+/* ======================================= Navbar =========================================================== */
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+.navbar div {
+  color: black;
+  font-size: large;
+  background-color: rgb(240, 240, 240);
+}
+
+
+
+/* ===================X=================== Navbar ==========================X================================ */
+/* ======================================= Form Page =========================================================== */
+
+.form {
+  /* width: 100%; */
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.input-container .itemName {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.itemName input[type='text'] {
+  padding: 1%;
+  border: none;
+  box-shadow: 5px 5px 4px 0px darkblue;
+  transition: 0.3s linear;
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  width: 25%;
+  font-weight: bold;
+}
+
+.itemName input[type='number'] {
+  padding: 1%;
+  border: none;
+  box-shadow: 5px 5px 4px 0px darkblue;
+  transition: 0.3s linear;
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  width: 25%;
+  font-weight: bold;
+}
+
+.itemName input[type='file'] {
+  padding: 1%;
+  border: none;
+  box-shadow: 5px 5px 4px 0px darkblue;
+  transition: 0.3s linear;
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  width: 25%;
+  font-weight: bold;
+}
+
+
+.itemName input[type='text']:hover {
+  box-shadow: none;
+  outline: 3px solid darkblue;
+}
+
+.itemName input[type='number']:hover {
+  box-shadow: none;
+  outline: 3px solid darkblue;
+}
+
+.itemName input[type='file']:hover {
+  box-shadow: none;
+  outline: 3px solid darkblue;
+}
+
+.input-container button {
+  padding: 1%;
+  width: 21%;
+  border: none;
+  background-color: darkslateblue;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 3px;
+  border-radius: 7px;
+  transition: 0.3s linear;
+}
+
+.input-container button:focus {
+  background-color: white;
+  color: darkslateblue;
+  outline: 3px solid darkslateblue;
+}
+
+/* ====================X================== Form Page ============================X============================== */
+/* ======================================= Cart =========================================================== */
+
+.cart h1 {
+  text-align: center;
+}
+
+.cart ul {
+  display: flex;
+  gap: 6%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.cart li {
+  list-style-type: none;
+  margin: 1%;
+}
+
+.cart .sellbtn {
+  height: 4vh;
+  width: 100%;
+  font-weight: inherit;
+  background-color: darkslategrey;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+.cart .sellbtn:focus {
+  background-color: white;
+  outline: 2px solid darkslategray;
+  color: darkslategray;
+}
+
+/* ====================X================== Cart ============================X============================== */
+/* ======================================= Sell =========================================================== */
+
+.sell {
+  width: 100%;
+}
+
+.sell ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 2%; */
+}
+
+.sell ul li {
+  list-style-type: none;
+  display: flex;
+  gap: 7%;
+  border: 2px solid lightblue;
+  border-radius: 6px;
+  /* height: 6%; */
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 46%;
+  background-color: lightblue;
+  margin: 1%;
+}
+
+.sell ul li img {
+  height: 89%;
+  width: 27%;
+}
+
+/* ====================X================== Sell ============================X============================== */
